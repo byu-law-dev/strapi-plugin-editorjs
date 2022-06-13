@@ -27,6 +27,7 @@
     "@editorjs/quote": "2.4.0",
     "@editorjs/raw": "2.3.0",
     "@editorjs/table": "2.0.1",
+    "@editorjs/underline": "^1.0.0",
     "@editorjs/warning": "1.2.0",
     "classnames": "^2.3.1",
     "get-file-object-from-local-path": "1.0.2",

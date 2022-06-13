@@ -172,6 +172,11 @@
   "resolved" "https://registry.npmjs.org/@editorjs/table/-/table-2.0.1.tgz"
   "version" "2.0.1"
 
+"@editorjs/underline@^1.0.0":
+  "integrity" "sha512-2qbmr6/Y5ZIsfmJeAxLujCndc5wpIEQ2uxoPIdR3uHIUQhA6Q28U5HdoGpEZwsP1d7e/A/vBhN18Ugro0iA0MQ=="
+  "resolved" "https://registry.npmjs.org/@editorjs/underline/-/underline-1.0.0.tgz"
+  "version" "1.0.0"
+
 "@editorjs/warning@1.2.0":
   "integrity" "sha512-CMIsB+b8Ti8/duOzYfKn1upFEEMxj821RDyBbDx8iku4DRql524VnAErvd00sYnFpKKbXNOF4oQnBo/7bDIzPQ=="
   "resolved" "https://registry.npmjs.org/@editorjs/warning/-/warning-1.2.0.tgz"
