@@ -13,40 +13,34 @@ import Marker from '@editorjs/marker'
 import CheckList from '@editorjs/checklist'
 import Delimiter from '@editorjs/delimiter'
 import InlineCode from '@editorjs/inline-code'
+import Underline from '@editorjs/underline'
 
 const customTools = {
   embed: Embed,
-  table: {
-    class: Table,
-    inlineToolbar: true,
-  },
-  list: {
-    class: List,
-    inlineToolbar: true,
-  },
-  warning: {
-    class: Warning,
-    inlineToolbar: true,
-    config: {
-      titlePlaceholder: 'Title',
-      messagePlaceholder: 'Message',
-    },
-  },
-  code: Code,
-  LinkTool: {
-    class: LinkTool,
-    config: {
-      endpoint: `/api/${PluginId}/link`,
-    },
-  },
-  raw: {
-    class: Raw,
-    inlineToolbar: true,
-  },
   header: {
     class: Header,
     inlineToolbar: true,
   },
+  // table: {
+  //   class: Table,
+  //   inlineToolbar: true,
+  // },
+  list: {
+    class: List,
+    inlineToolbar: true,
+  },
+  // warning: {
+  //   class: Warning,
+  //   inlineToolbar: true,
+  //   config: {
+  //     titlePlaceholder: 'Title',
+  //     messagePlaceholder: 'Message',
+  //   },
+  // },
+  // checklist: {
+  //   class: CheckList,
+  //   inlineToolbar: true,
+  // },
   quote: {
     class: Quote,
     inlineToolbar: true,
@@ -55,16 +49,24 @@ const customTools = {
       captionPlaceholder: 'Quote`s author',
     },
   },
-  marker: {
-    class: Marker,
+  // code: Code,
+  underline: Underline,
+  // LinkTool: {
+  //   class: LinkTool,
+  //   config: {
+  //     endpoint: `/api/${PluginId}/link`,
+  //   },
+  // },
+  raw: {
+    class: Raw,
     inlineToolbar: true,
   },
-  checklist: {
-    class: CheckList,
-    inlineToolbar: true,
-  },
-  delimiter: Delimiter,
-  inlineCode: InlineCode,
+  // marker: {
+  //   class: Marker,
+  //   inlineToolbar: true,
+  // },
+  // delimiter: Delimiter,
+  // inlineCode: InlineCode,
 }
 
 export default customTools
