@@ -1,7 +1,7 @@
 {
-  "name": "strapi-plugin-react-editorjs",
-  "version": "0.0.0-development",
-  "description": "Plugin for Strapi Headless CMS, hiding the standard WYSIWYG editor and replacing it with Editor.js",
+  "name": "strapi-plugin-editorjs",
+  "version": "1.0.0",
+  "description": "Plugin for Strapi Headless CMS, hiding the standard WYSIWYG editor and replacing it with Editor.js. Custom fork for use by BYU Law",
   "homepage": "https://market.strapi.io/plugins/strapi-plugin-react-editorjs",
   "strapi": {
     "icon": "plug",
